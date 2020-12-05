@@ -40,6 +40,7 @@ function reduceToTotal(sourceArray, startingPoint=0){
 
 funct(ion reduceToAllTrue(sourceArray){
   for(let i=0;i<sourceArray.length;i++){
-    
+    if(!sourceArray[i]) 
+    return false;
   }
 }
