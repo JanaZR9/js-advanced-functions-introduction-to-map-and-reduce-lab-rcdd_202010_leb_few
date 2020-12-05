@@ -14,7 +14,7 @@ function mapToNoChange(arr){
   return newArray
 }
 
-function mapToNoDouble(arr){
+function mapToDouble(arr){
   let newArray=[]
   for(let i=0;i<arr.length;i++){
   newArray[i]=arr[i]*2 
