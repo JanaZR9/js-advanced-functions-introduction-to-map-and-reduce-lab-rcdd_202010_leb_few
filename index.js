@@ -38,9 +38,10 @@ function reduceToTotal(sourceArray, startingPoint=0){
   return sum
 }
 
-funct(ion reduceToAllTrue(sourceArray){
+function reduceToAllTrue(sourceArray){
   for(let i=0;i<sourceArray.length;i++){
     if(!sourceArray[i]) 
     return false;
   }
+  return true;
 }
