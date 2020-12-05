@@ -29,3 +29,5 @@ function mapToSquare(arr){
   }
   return newArray
 }
+
+function 
