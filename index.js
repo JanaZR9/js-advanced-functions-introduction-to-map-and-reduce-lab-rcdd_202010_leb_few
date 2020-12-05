@@ -37,3 +37,7 @@ function reduceToTotal(sourceArray, startingPoint=0){
   }
   return sum
 }
+
+function reduceToAllTrue(sourceArray){
+  
+}
