@@ -13,3 +13,19 @@ function mapToNoChange(arr){
   newArray[i]=arr[i]}
   return newArray
 }
+
+function mapToNoDouble(arr){
+  let newArray=[]
+  for(let i=0;i<arr.length;i++){
+  newArray[i]=arr[i]*2 
+  }
+  return newArray
+}
+
+function mapToSquare(arr){
+  let newArray=[]
+  for(let i=0;i<arr.length;i++){
+  newArray[i]=arr[i]*3
+  }
+  return newArray
+}
